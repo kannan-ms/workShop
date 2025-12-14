@@ -3,12 +3,15 @@
 }
 
 .header {
-  background: linear-gradient(to right, #007bff, #0056b3);
+  background: linear-gradient(135deg, #007bff, #0056b3);
   color: #fff;
-  padding: 12px 20px;
+  padding: 16px 24px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  box-shadow: 0 4px 12px rgba(0, 123, 255, 0.3);
+  border-bottom: 3px solid rgba(255, 255, 255, 0.1);
+  position: relative;
 }
 
 .header h1 {
